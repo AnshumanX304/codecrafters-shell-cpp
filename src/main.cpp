@@ -15,7 +15,7 @@ int main() {
     return 0;
   }
   else if(input.substr(0,4) == "echo"){
-    std::cout << input.substr(6)<< std::endl;
+    std::cout << input.substr(5)<< std::endl;
   }
   else{
     std::cout << input << ": command not found" << std::endl;
