@@ -19,7 +19,7 @@ int main() {
   }
   else if(input.substr(0,4) == "type"){
     std::string data=input.substr(5);
-    if(data == "echo" || data == "exit"){
+    if(data == "echo" || data == "exit" || data == "type"){
       std::cout<<data<<" is a shell builtin"<<std::endl;
     }
     else{
